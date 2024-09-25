@@ -11,7 +11,26 @@ int main() {
             std::cout << matrix[i][j] << " ";
         }
         std::cout << std::endl;
+
+
+
+
+
+
+
     }
 
     return 0;
+}
+
+void printWelcomeMessage() {
+    std::cout << "Welcome to the program!" << std::endl;
+}
+//
+
+
+
+// Hàm tách để tính tổng hai số nguyên
+int addNumbers(int a, int b) {
+    return a + b;
 }
